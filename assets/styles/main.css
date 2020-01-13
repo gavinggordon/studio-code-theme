@@ -26,20 +26,28 @@ codemirror ::selection {}
 codemirror-gutter-element {}
 codemirror-content {}
 cm-keyword {}
-cm-comment {}
+cm-comment {
+ color: #C8C9CA;
+ color: rgb(200,201,202);
+ color: rgba(200,201,202,1.0);
+}
 cm-bracket {}
 cm-attribute {}
 codemirror-matchingbracket {}
 cm-atom {}
 cm-string {
- color: #EB4105;
- color: rgb(235,65,5);
- color: rgba(235,65,5,1.0);
+ color: #B1D7D6;
+ color: rgb(177,215,214);
+ color: rgba(177,215,214,1.0);
 }
 cm-string-2 {}
 cm-qualifier {}
 cm-property {}
-cm-number {}
+cm-number {
+ color: #EB4105;
+ color: rgb(235,65,5);
+ color: rgba(235,65,5,1.0);
+}
 cm-def {}
 cm-variable {}
 cm-punctuation {}
